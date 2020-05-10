@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45D099EB2468519100873C9C /* LogData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D099EA2468519100873C9C /* LogData.swift */; };
 		A7137C971FAA9C80003A0EF6 /* TripDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7137C961FAA9C80003A0EF6 /* TripDetailViewController.swift */; };
 		A7137C991FAAC134003A0EF6 /* ProgressDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7137C981FAAC134003A0EF6 /* ProgressDialogViewController.swift */; };
 		A73C86D01FAAF7D000887DDC /* SettingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C86CF1FAAF7D000887DDC /* SettingDetailViewController.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45D099EA2468519100873C9C /* LogData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogData.swift; sourceTree = "<group>"; };
 		A7137C961FAA9C80003A0EF6 /* TripDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailViewController.swift; sourceTree = "<group>"; };
 		A7137C981FAAC134003A0EF6 /* ProgressDialogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressDialogViewController.swift; sourceTree = "<group>"; };
 		A73C86CF1FAAF7D000887DDC /* SettingDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingDetailViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				A7BE867B2117ED8400C00BD2 /* CommonValue.m */,
 				A7BE86782117ED7000C00BD2 /* CommonUtil.h */,
 				A7BE86772117ED6F00C00BD2 /* CommonUtil.m */,
+				45D099EA2468519100873C9C /* LogData.swift */,
 				A7BE86742117ED4900C00BD2 /* Puck+XGPS160.h */,
 				A7BE86732117ED4900C00BD2 /* Puck+XGPS160.m */,
 				A7BE86712117ED4800C00BD2 /* Puck+XGPS500.h */,
@@ -240,6 +243,7 @@
 			files = (
 				A783731E1FA94B1F0029BA1C /* WaitingToConnectView.swift in Sources */,
 				A7CE8B9A1FA7223D0053B8AD /* Definitions.swift in Sources */,
+				45D099EB2468519100873C9C /* LogData.swift in Sources */,
 				A7BE86862117EE1200C00BD2 /* ntripclient.c in Sources */,
 				A74C76511FA312BE00EE6E58 /* XGPSManager.swift in Sources */,
 				A74C763F1FA30D4A00EE6E58 /* TripViewController.swift in Sources */,
